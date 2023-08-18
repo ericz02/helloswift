@@ -5,19 +5,15 @@
 //  Created by Eric Zheng on 8/16/23.
 //
 
-
 import UIKit
 
 class ViewController: UIViewController {
-
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
  
     }
-  
 
     @IBAction func changeBackgroundColor(_ sender: UIButton) {
         
@@ -31,7 +27,7 @@ class ViewController: UIViewController {
         }
         
         let randomColor = changeColor()
-         view.backgroundColor = randomColor
+        view.backgroundColor = randomColor
     }
 }
 
